@@ -2,6 +2,37 @@
 body{
     background-color: rgb(218, 213, 213); 
 }
+.dropbtn {
+	background-color:grey;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: lightgrey;
+	min-width: 200px;
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: rgb(136, 133, 133);
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {background-color: white;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: grey;}
 
 .navbar{
     max-height: 50px; 
@@ -23,14 +54,17 @@ body{
 }
 
 .dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:active{
-    background-color:#adc7c4; 
+    background-color:#75c9bf; 
 }
+ 
 
 .nav-link:hover{
-    background-color:#adc7c4;
+    background-color:#77c9bf;
 }
 
-
+.navbarDropdownMenuLink{
+	background-attachment: scroll;
+}
 /* Media Queries */
 @media (max-width: 991.98px){
 .navbar-expand-lg{
