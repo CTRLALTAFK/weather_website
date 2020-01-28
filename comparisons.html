@@ -48,52 +48,43 @@
       </div>
     </nav>
   </div>
-  <!-- Content Section -->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-7 col-md-12">
-        <!-- Left box  -->
-        <div class="box">
-          <h3 class="title">Summary: Latitude vs. X</h3>
-          <hr>
-          <img src="Graphs/JustForFun.png" class="vizualization rounded float-left" alt="Map of cities">
-          <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To
-            accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over
-            500 cities.</p>
-          <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
-            Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the
-            source data and visualizations created as part of the analysis, as well as explanations and descriptions of
-            any trends and correlations witnessed.</p>
-        </div>
-      </div>
-      <div class="col-lg-5 col-md-12">
-       <!-- Start visualizations -->
-<section id="imageNav-area">
-  <div class="imageNav-content">
-    <h2 class="imageNav-header">Visualizations</h2>
-    <hr />
-    <div class="container">
-      <div class="row">
-        <div class="col-6">
-          <a href="temp.html">
-            <img src="Graphs/Maxtemp.png" alt="Latitude vs. Max Temperature", title="Latitude vs. Max Temperature" class="imageNav-photo">
-          </a>
-        </div>
-        <div class="col-6">
-          <a href="humidity.html">
-            <img src="graphs/Humidity.png" alt="Latitude vs. Humidity", title="Latitude vs. Humidity" class="imageNav-photo">
-          </a>
-          </div>
-        <div class="col-6">
-          <a href="cloudiness.html">
-            <img src="graphs/Cloudiness.png" alt="Latitude vs. Cloudiness", title="Latitude vs. Cloudiness", class="imageNav-photo">
-          </a>
-        </div>
-        <div class="col-6">
-          <a href="wind.html">
-            <img src="graphs/WindSpeed.png" alt="Latitude vs. Wind Speed", title="Latitude vs. Wind Speed", class="imageNav-photo">
-          </a>
+ <!-- Containers. -->
+
+  <div class="row">
+    <div class="col-md-4 col-sm-9 m-2 border border-success">
+            <h6 class="pt-4">Latitude vs. Temperature</h6>
+            <a href="max_temperature.html">
+                <img class="img-fluid pb-4" src="Graphs/Maxtemp.png" alt="Lattitude versus Temperature" width="450px" height="450px">
+            </a>
+    </div>
+    
+    <div class="col-md-4 col-sm-9 m-2 border border-success">
+            <h6 class="pt-4">Latitude vs. Cloudiness</h6>
+            <a href="cloudiness.html">
+                <img class="img-fluid pb-4" src="graphs/Cloudiness.png" alt="Lattitude versus Cloudiness" width="450px" height="450px">
+            </a>
+    </div>
+
 </div>
+
+<div class="row">
+        <div class="col-md-4 col-sm-9 m-2 border border-success">
+                <h6 class="pt-4">Latitude vs. Humidity</h6>
+                <a href="humidity.html">
+                    <img class="img-fluid pb-4" src="graphs/Humidity.png" alt="Lattitude versus Humidity" width="450px" height="450px">
+                </a>
+        </div>
+        
+        <div class="col-md-4 col-sm-9 m-2 border border-success">
+                <h6 class="pt-4">Latitude vs. Wind Speed</h6>
+                <a href="wind_speed.html">
+                    <img class="img-fluid pb-4" src="graphs/WindSpeed.png" alt="Lattitude versus Windspeed" width="450px" height="450px">
+                </a>
+        </div>
+
+    </div>
+
+
 
       </div>
     </div>
